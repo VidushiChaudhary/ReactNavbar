@@ -1,11 +1,11 @@
 import React from 'react';
-import { Herosection } from './Components/Herosection';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import  Navbar  from "./Components/Navbar";
 import  About  from "./Components/about";
 import  Home  from "./Components/home";
 import  Contact  from "./Components/contact";
 import Product from './Product';
+import Herosection from './Components/home';
 
 
 const App=() => {
